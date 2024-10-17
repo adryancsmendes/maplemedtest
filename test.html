@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Roles</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="team-section">
+    <!-- Caixa para cada função -->
+    <div class="role-box" data-role="pathologist">
+        <div class="role-content">
+            <h2>Pathologist</h2>
+            <p>The Pathologist is responsible for diagnosing diseases by examining tissues, cells, and organs.</p>
+            <button class="learn-more" data-role="pathologist">Learn more</button>
+        </div>
+        <div class="role-image">
+            <img src="media/doctor-performing-medical-research-lab.jpg" alt="Pathologist">
+        </div>
+    </div>
+    
+    <div class="role-box" data-role="radiologist">
+        <div class="role-content">
+            <h2>Radiologist</h2>
+            <p>The Radiologist uses imaging techniques to diagnose and treat diseases.</p>
+            <button class="learn-more" data-role="radiologist">Learn more</button>
+        </div>
+        <div class="role-image">
+            <img src="media/doctor-performing-medical-research-lab.jpg" alt="Radiologist">
+        </div>
+    </div>
+
+    <div class="role-box" data-role="nuclear-medicine-radiologist">
+        <div class="role-content">
+            <h2>Nuclear Medicine Radiologist</h2>
+            <p>The Nuclear Medicine Radiologist specializes in diagnosing diseases using radioactive materials.</p>
+            <button class="learn-more" data-role="nuclear-medicine-radiologist">Learn more</button>
+        </div>
+        <div class="role-image">
+            <img src="media/doctor-performing-medical-research-lab.jpg" alt="Nuclear Medicine Radiologist">
+        </div>
+    </div>
+
+    <div class="role-box" data-role="radiation-oncologist">
+        <div class="role-content">
+            <h2>Radiation Oncologist</h2>
+            <p>The Radiation Oncologist treats cancer and other diseases using radiation therapy.</p>
+            <button class="learn-more" data-role="radiation-oncologist">Learn more</button>
+        </div>
+        <div class="role-image">
+            <img src="media/doctor-performing-medical-research-lab.jpg" alt="Radiation Oncologist">
+        </div>
+    </div>
+
+    <div class="role-box" data-role="surgeon">
+        <div class="role-content">
+            <h2>Surgeon</h2>
+            <p>The Surgeon performs operations to treat or prevent diseases, repair injuries, or improve bodily functions.</p>
+            <button class="learn-more" data-role="surgeon">Learn more</button>
+        </div>
+        <div class="role-image">
+            <img src="media/doctor-performing-medical-research-lab.jpg" alt="Surgeon">
+        </div>
+    </div>
+
+    <div class="role-box" data-role="respirologist">
+        <div class="role-content">
+            <h2>Respirologist</h2>
+            <p>The Respirologist diagnoses and treats diseases of the lungs and respiratory system.</p>
+            <button class="learn-more" data-role="respirologist">Learn more</button>
+        </div>
+        <div class="role-image">
+            <img src="media/doctor-performing-medical-research-lab.jpg" alt="Respirologist">
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="roleModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="slide-container">
+            <div class="slide">
+                <h3>Responsibility 1</h3>
+            </div>
+            <div class="slide">
+                <h3>Responsibility 2</h3></div>
+            <div class="slide">
+                <h3>Responsibility 3</h3></div>
+        </div>
+        <button class="prev">Previous</button>
+        <button class="next">Next</button>
+    </div>
+</div>
+
+<script src="test.js"></script>
+</body>
+</html>
